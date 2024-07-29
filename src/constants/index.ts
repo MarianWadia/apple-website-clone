@@ -1,13 +1,13 @@
 import {
     blackImg,
     blueImg,
-    highlightFirstVideo,
-    highlightFourthVideo,
-    highlightSecondVideo,
-    highlightThirdVideo,
     whiteImg,
     yellowImg,
   } from "../utils";
+  import highlightFirstVideo from "../../videos/highlight-first.mp4"
+  import highlightSecondVideo from "../../videos/hightlight-sec.mp4"
+  import highlightThirdVideo from "../../videos/hightlight-third.mp4"
+  import highlightFourthVideo from "../../videos/hightlight-fourth.mp4"
   
   export const navLists = ["Store", "Mac", "iPhone", "Support"];
   

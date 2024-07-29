@@ -9,9 +9,9 @@ export default function Navbar() {
         <nav className='w-full flex screen-max-width flex-row items-center justify-between'>
             <Image src={appleImg} alt='apple-logo' width={20} height={18} />
 
-            <div className='hidden md:flex flex-row gap-7 '>
+            <div className='hidden md:flex flex-row gap-10 '>
                 {navLists.map(navItem=>(
-                    <p className='text-gray-500 hover:text-white transition-all text-sm font-medium cursor-pointer' key={navItem}>{navItem}</p>
+                    <p className='text-gray-400 hover:text-white transition-all text-sm font-medium cursor-pointer' key={navItem}>{navItem}</p>
                 ))}
             </div>
 
