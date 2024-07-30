@@ -4,11 +4,6 @@ import {
     whiteImg,
     yellowImg,
   } from "../utils";
-  import highlightFirstVideo from "../../videos/highlight-first.mp4"
-  import highlightSecondVideo from "../../videos/hightlight-sec.mp4"
-  import highlightThirdVideo from "../../videos/hightlight-third.mp4"
-  import highlightFourthVideo from "../../videos/hightlight-fourth.mp4"
-  
   export const navLists = ["Store", "Mac", "iPhone", "Support"];
   
   export const hightlightsSlides = [
@@ -19,13 +14,13 @@ import {
         "Game‑changing chip.",
         "Groundbreaking performance.",
       ],
-      video: highlightFirstVideo,
+      videoSrc: require('../../public/assets/videos/highlight-first.mp4'),      
       videoDuration: 4,
     },
     {
       id: 2,
       textLists: ["Titanium.", "So strong. So light. So Pro."],
-      video: highlightSecondVideo,
+      videoSrc: require('../../public/assets/videos/hightlight-sec.mp4'),      
       videoDuration: 5,
     },
     {
@@ -35,13 +30,13 @@ import {
         "longest optical zoom in",
         "iPhone ever. Far out.",
       ],
-      video: highlightThirdVideo,
+      videoSrc: require('../../public/assets/videos/hightlight-third.mp4'),      
       videoDuration: 2,
     },
     {
       id: 4,
       textLists: ["All-new Action button.", "What will yours do?."],
-      video: highlightFourthVideo,
+      videoSrc: require('../../public/assets/videos/hightlight-fourth.mp4'),      
       videoDuration: 3.63,
     },
   ];

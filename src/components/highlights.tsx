@@ -38,6 +38,7 @@ export default function Highlights() {
               <Image src={rightImg} alt='right-arrow-icon' width={10} height={10} />
             </div>
           </div>
+          
         </div>
       </div>
     </section>
