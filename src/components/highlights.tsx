@@ -4,6 +4,7 @@ import { useGSAP } from '@gsap/react'
 import gsap from 'gsap'
 import Image from 'next/image'
 import React from 'react'
+import VideoCarousel from './videoCarousel'
 
 export default function Highlights() {
   useGSAP(()=>{
@@ -24,11 +25,10 @@ export default function Highlights() {
   return (
     <section className='w-screen overflow-hidden h-full common-padding bg-zinc'>
       <div className='screen-max-width'>
-        <div className='w-full md:flex flex-row justify-between items-end'>
 
+        <div className='w-full md:flex flex-row justify-between items-end mb-6 md:mb-10'>
           <h1 id='highlights-heading' className='section-heading'>Get the highlights</h1>
-
-          <div className='flex flex-wrap items-end flex-row gap-6'>
+          <div className='flex flex-wrap items-end flex-row gap-4 md:gap-6'>
             <div className='link gap-2 transition-all'>
               <p>Watch the film</p>
               <Image src={watchImg} alt='watch-icon' width={16} height={16} />
@@ -38,8 +38,9 @@ export default function Highlights() {
               <Image src={rightImg} alt='right-arrow-icon' width={10} height={10} />
             </div>
           </div>
-          
         </div>
+
+        <VideoCarousel />
       </div>
     </section>
   )

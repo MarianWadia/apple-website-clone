@@ -26,11 +26,11 @@ export default function Hero() {
       <div className='h-full w-full flex-center flex-col'>
         <p id='title-hero-1' className='hero-title'>iPhone 15 Pro</p>
           <div className='w-9/12 md:w-10/12 h-4/6 hidden md:block'>
-            <video src={require('../../public/assets/videos/hero.mp4')} autoPlay muted loop controls={false} className='pointer-events-none h-full' />
+            <video src={require('../../public/assets/videos/hero.mp4')} playsInline autoPlay muted loop controls={false} className='pointer-events-none h-full' />
           </div>
     
           <div className='w-9/12 md:w-10/12 h-4/6 block md:hidden'>
-            <video src={require('../../public/assets/videos/smallHero.mp4')} autoPlay muted loop controls={false} className='pointer-events-none h-full' />
+            <video src={require('../../public/assets/videos/smallHero.mp4')} playsInline autoPlay muted loop controls={false} className='pointer-events-none h-full' />
           </div>
 
         <div id='hero-last-part' className='flex flex-col items-center opacity-0 translate-y-20'>
